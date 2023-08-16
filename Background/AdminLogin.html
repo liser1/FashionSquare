@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<head>
+    <title>管理员登录界面</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-image: url('../images/adminlogin-p.png'); /* 设置背景图像的URL */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .login-container {
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 350px;
+            text-align: center;
+        }
+
+        .login-container h2 {
+            margin-bottom: 20px;
+        }
+
+        .login-container img {
+            max-width: 100px;
+            margin-bottom: 20px;
+        }
+
+        .login-container input {
+            width: 90%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+
+        .login-container button {
+            width: 90%;
+            padding: 10px;
+            background-color: #007bff;
+            border: none;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        .signup-link {
+            margin-top: 10px;
+        }
+    </style>
+
+    <script>
+        function login() {
+            var username = document.getElementById('username').value;
+            var password = document.getElementById('password').value;
+
+            if (username === 'admin' && password === '123') {
+                alert('登录成功');
+                window.location.href = 'shouye.html';
+            } else {
+                alert('登录失败！请检查你的账号或密码。');
+            }
+        }
+    </script>
+
+</head>
+<body>
+<div class="login-container">
+    <img src="../images/logo.jpg" alt="Logo">
+    <h2>管理员登录</h2>
+    <form>
+        <input type="text" id="username" placeholder="账号" required>
+        <input type="password"id="password" placeholder="密码" required>
+        <button type="button" onclick="login()">登录</button>
+    </form>
+</div>
+</body>
+</html>
