@@ -1,0 +1,230 @@
+.longpic{
+    width: 1200px;
+    height: 120px;
+    margin: 0 auto;
+    background:url(../images/guangchang/longpic.jpg) no-repeat;
+    
+}
+.nav::after{
+    clear: both;
+}
+
+.new{
+    width: 100%;
+    height: 692px;
+    float: left;
+}
+.new .title{
+    width: 1200px;
+    height: 40px;
+    line-height: 40px;
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #ff9c01;
+    margin: 0px 10px 10px;
+    text-indent: 20px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.picbox{
+    width: 1214px;
+    height: 279px;
+    margin: 0 auto;
+}
+.new dl{
+    width: 152px;
+    float: left;
+    margin: 0px 10px 10px;
+}
+.new dd{
+    font-size: 12px;
+    font-family: microsoft yahei;
+    float: left;
+}
+.img1{
+    width: 150px;
+    height: 180px;
+    margin: 0 0 5.2px;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+.picbox .price{
+    color: red;
+    font-size: 15px;
+    font-family: microsoft yahei;
+    font-weight: 700;
+    float: left;
+}
+.people{
+    color: #cccccc;
+    font-size: 12px;
+    font-family: microsoft yahei;
+    float: right;
+}
+.new_bottom{
+    width: 1195px;
+    margin: 0 auto;
+}
+.new_bottom img{
+    float: left;
+}
+
+.movie{
+    width: 100%;
+    height: 764px;
+    float: left;
+}
+.movie .title{
+    width: 1200px;
+    height: 40px;
+    line-height: 40px;
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #85be00;
+    margin: 0px 10px 10px;
+    text-indent: 20px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.movie img{
+    display: block;
+    
+}
+.movie .main{
+    width: 1200px;
+    height: 316px;
+    margin: 0 auto;
+    padding:10px 0;
+}
+.bigpic{
+    width: 381px;
+    height: 316px;
+    float: left;
+    margin: 0 5px 0px 11px;
+}
+.bigpic>div{
+    width: 381px;
+    height: 45px;
+    background-color: #f2f2f2;
+    position: relative;
+}
+.p{
+    height: 32px;
+    width: 100%;
+    position: absolute;
+    top: calc(50% - 16px);
+}
+.movie p{
+    text-align: center;
+    font-size: 12px;
+}
+.smallpic{
+    width: 180px;
+    height: 150px;
+    margin: 0 10px;
+    float: left;
+}
+.smallpic>div{
+    width: 180px;
+    height: 50px;
+    background-color: #f2f2f2;
+    position: relative;
+}
+.top{
+    margin-bottom: 8px;
+}
+.bottom{
+    margin-top: 8px;
+}
+.movie_buttom{
+    width: 1192px;
+    height: 368px;
+    margin: 0 auto;
+}
+.movie_buttom img{
+    float: left;
+}
+.gary{
+    color: #a4a4a4;
+}
+
+
+.food{
+    width: 100%;
+    height: 650px;
+    float: left;
+}
+.food .title{
+    width: 1200px;
+    height: 40px;
+    line-height: 40px;
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #f60;
+    margin: 0px 10px 10px;
+    text-indent: 20px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.food .main{
+    width: 1164px;
+    height: 532px;
+    
+    margin: 0 auto;
+    padding: 20px 20px 10px;
+    border: 1px solid #ccc
+}
+.food_table{
+    width: 280px;
+    height: 256px;
+    margin: 0 5px 10px;
+    float: left;
+}
+.food_table .pic{
+    width: 280px;
+    height: 190px;
+    text-align: center;
+}
+.food_table .name{
+    width: 280px;
+    height: 40px;
+    text-align: center;
+}
+.name div{
+    width: 246px;
+    height: 35px;
+    background-color: #f2f2f2;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 35px;
+}
+.name div a:hover{
+    color: red;
+}
+.food_table .number{
+    width: 280px;
+    height: 26px;
+    
+}
+.food_table .number div{
+    width: 220px;
+    height: 21px;
+    /* line-height: 21px; */
+    margin: 0 auto;
+    color: #999999;
+    font-size: 12px;
+}
+.food .price{
+    color: #ff6600;
+    font-size: 16px;
+    font-weight: 700;
+}
+.buy{
+    float: right;
+}
