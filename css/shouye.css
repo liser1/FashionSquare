@@ -1,0 +1,172 @@
+.box{
+    width: 100%;
+    float: left;
+}
+.midbody{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.leftbox{
+    width: 220px;
+    border: 1px solid #e5e4e1;
+    float: left;
+}
+.leftbox li{
+    float: left;
+    height: 33px;
+    width: 220px;
+    line-height: 33px;
+    font-size: 14px;
+    background-color: #fafafa;
+    border-bottom: 1px solid #e5e4e1;
+}
+.leftbox_title{
+    float: left;
+    height: 33px;
+    width: 220px;
+    line-height: 33px;
+    font-size: 15px;
+    background-color: #e5e4e1;
+    border-bottom: 1px solid #e5e4e1;
+    text-indent: 20px;
+    font-weight: 700;
+}
+.leftbox li a:hover{
+    color: red;
+}
+.img3 img{
+    width: 8px;
+    height: 8px;
+    margin: 13px 10px;
+    float: left;
+}
+.img4{
+    float: right;
+}
+.body_pic{
+    width: 690px;
+    height: 350px;
+    float: left;
+    margin: 0px 5px 5px;
+    position: relative;
+}
+.pic_box{
+    width: 75px;
+    height: 15px;
+    position: absolute;
+    top: 320px;
+    left: 50%;
+    margin-left: -38.5px;
+}
+.pic_box li{
+    float: left;
+    margin: 0 5px;
+    width: 15px;
+    height: 15px;
+    border-radius: 10px;
+    background: gray;
+    cursor: pointer;
+}
+.gonggao ul{
+    width: 273px;
+    border: 1px solid #e5e4e1;
+    float: left;
+}
+.gonggao li{
+    height: 30px;
+    width: 273px;
+    text-align: left;
+    display: block;
+    font-size: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.gonggao .one{
+    background-color: #f7f7f7;
+    height: 35px;
+    border-bottom: 1px solid #e5e4e1;
+    margin-bottom: 8px;
+    text-indent: 20px;
+    line-height: 35px;
+    font-size: 16px;
+}
+.gonggao a{
+    float: left;
+    font-size: 12px;
+    width: 250px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.gonggao a:hover{
+    color: red;
+}
+.gonggao img{
+    float: left;
+    margin:3px 10px 0px 5px;
+}
+
+.logo_right{
+    width: 273px;
+    float: left;
+    text-align: center;
+    margin-top: 8px;
+}
+.logofirst{
+    width: 91px;
+    height: 35px;
+    float: left;
+}
+.logolast,.logolast1{
+    width: 91px;
+    height: 45px;
+    float: left;
+    position: relative;
+}
+.logolast1 img{
+    position: absolute;
+    top: 5px;
+    left: 5.5px;
+}
+
+.right_bottom{
+    width: 964px;
+    height: 143px;
+    border: 1px solid #e5e4e1;
+    float: left;
+    margin-left: 5px;
+}
+.right_bottom>ul>li{
+    width: 173px;
+    height: 137px;
+    border-left: 1px solid #e5e4e1;
+    float: left;
+    padding: 3px 9.5px;
+}
+.right_bottom>ul>li>div{
+    padding: 3px;
+    float: left;
+}
+.box1{
+    width: 70px;
+    height: 65px;
+    
+}
+.box2{
+    width: 91px;
+    height: 65px;
+    font-size: 14px;
+    font-weight: 700;
+    position: relative;
+}
+.box2 p{
+    position: absolute;
+    top:16.3px
+}
+.box3{
+    width: 167px;
+    height: 16px;
+    font-size: 12px;
+}

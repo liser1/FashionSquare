@@ -1,0 +1,217 @@
+.yifu_box{
+    width: 100%;
+    float: left;
+}
+
+.yifu_main{
+    margin: 0 auto;
+    width: 1200px;
+    height: 2000px;
+}
+.leftbox ul{
+    width: 220px;
+    border: 1px solid #e5e4e1;
+    float: left;
+}
+
+
+.leftbox li{
+    float: left;
+    height: 33px;
+    width: 220px;
+    line-height: 33px;
+    font-size: 14px;
+    background-color: #fafafa;
+    border-bottom: 1px solid #e5e4e1;
+}
+.leftbox_title{
+    float: left;
+    height: 33px;
+    width: 220px;
+    line-height: 33px;
+    font-size: 15px;
+    background-color: #e5e4e1;
+    border-bottom: 1px solid #e5e4e1;
+    text-indent: 20px;
+    font-weight: 700;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.leftbox li a:hover{
+    color: red;
+}
+.img3 img{
+    width: 8px;
+    height: 8px;
+    margin: 13px 10px;
+    float: left;
+}
+.img4{
+    float: right;
+}
+.pic_title{
+    width: 680px;
+    height: 40px;
+    line-height: 40px;
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #ff9c01;
+    margin: 0px 10px 10px;
+    text-indent: 20px;
+}
+.yifu_im{
+    width: 690px;
+    float: left;
+}
+
+.picshow{
+    width: 410px;
+    height: 485px;
+    margin-left: 10px;
+    background:url(../images/show1.jpg) no-repeat;
+    background-size:400px 400px;
+    float: left;
+}
+.bigpic{
+    width: 400px;
+    height: 400px;
+    margin: 0 8px 10px 0;
+    float: left;
+}
+.picshow img{
+    width: 70px;
+    height: 70px;
+    border: 1px solid #ccc;
+    float: left;
+    margin-right: 10px;
+}
+.picshow:has(.pic1:hover){
+    background:url(../images/show1.jpg) no-repeat;
+    background-size: 400px 400px;
+}
+.picshow:has(.pic2:hover){
+    background:url(../images/show2.jpg) no-repeat;
+    background-size: 400px 400px;
+}
+.picshow:has(.pic3:hover){
+    background:url(../images/show3.jpg) no-repeat;
+    background-size: 400px 400px;
+}
+.picshow:has(.pic4:hover){
+    background:url(../images/show4.jpg) no-repeat;
+    background-size: 400px 400px;
+}
+.picshow:has(.pic5:hover){
+    background:url(../images/show5.jpg) no-repeat;
+    background-size: 400px 400px;
+}
+.showright{
+    float: left;
+    width: 270px;
+    height: 368px;
+}
+.yifu_title{
+    font-weight: 700;
+    float: left;
+}
+.goods_title{
+    width: 680px;
+    height: 35px;
+    margin: 10px;
+    border-bottom: 1px solid #ccc;
+    font-size: 12px;
+}
+.goods_title p{
+    text-align: center;
+    float: left;
+    width: 90px;
+    height: 33px;
+    line-height: 33px;
+    font-size: 14px;
+}
+.goods_title .p1{
+    font-weight: 700;
+    border-top: 3px solid red;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    background-color: #f2f2f2;
+}
+.goods_im{
+    width: 680px;
+    height: 120px;
+    padding: 0 10px;
+}
+.goods_im li
+{
+    width: 226px;
+    height: 24px;
+    line-height: 24px;
+    font-size: 12px;
+    float: left;
+    text-indent: 5px;
+}
+.yifu_im section img{
+    width: 680px;
+    height: auto;
+    margin: 0 10px;
+}
+.img_border{
+    border: 1px solid #ccc;
+}
+
+.lookagain{
+    width: 660px;
+    height: 210px;
+    padding: 0px 11px;
+    margin: 10px;
+}
+.lookagain div{
+    float: left;
+    margin: 5px;
+}
+.lookagain img{
+    width: 120px;
+    height: 160px;
+    border: 1px solid #ccc;
+}
+.lookagain p{
+    font-size: 12px;
+    width: 121.6px;
+}
+
+
+.rightbox{
+    width: 280px;
+    height: 367.4px;
+    border: 1px solid #ccc;
+    margin-left: 6px;
+    float: left;
+}
+.rightbox .title{
+    width: 280px;
+    background: #eee;
+    line-height: 35px;
+    font-size: 14px;
+    text-indent: 20px;
+    float: left;
+    font-weight: 700;
+}
+.rightbox .pic_right{
+    float: left;
+    margin: 5px;
+}
+.pic_right img{
+    width: 80px;
+    height: 80px;
+    border: 1px solid #ccc; 
+}
+.pic_right p{
+    width: 83px;
+    font-size: 12px;
+    color: red;
+    text-align: center;
+    font-weight: 700;
+}
