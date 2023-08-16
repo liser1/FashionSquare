@@ -2,7 +2,7 @@
 <html>
     <meta http-equiv="content-type" content="text/html;charset=utf-8" />
 <head>
-    <title>用户登录界面</title>
+    <title>管理员登录界面</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -13,7 +13,7 @@
             justify-content: center;
             align-items: center;
             height: 100vh;
-            background-image: url('images/userlogin-p.jpeg'); /* 设置背景图像的URL */
+            background-image: url('images/adminlogin-p.png'); /* 设置背景图像的URL */
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -64,7 +64,7 @@
             var username = document.getElementById('username').value;
             var password = document.getElementById('password').value;
 
-            if (username === 'user' && password === '123') {
+            if (username === 'admin' && password === '123') {
                 alert('登录成功');
                 window.location.href = 'shouye.html';
             } else {
@@ -77,13 +77,12 @@
 <body>
 <div class="login-container">
     <img src="images/logo.jpg" alt="Logo">
-    <h2>登录</h2>
+    <h2>管理员登录</h2>
     <form>
         <input type="text" id="username" placeholder="账号" required>
         <input type="password"id="password" placeholder="密码" required>
-        <button type="button" onclick="UserLogin()">登录</button>
+        <button type="button" onclick="login()">登录</button>
     </form>
-    <p class="signup-link">没有账户？ <a href="zhuce.html">注册</a></p>
 </div>
 </body>
 </html>
