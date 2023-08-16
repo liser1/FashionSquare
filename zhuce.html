@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>用户注册</title>
     <link rel="stylesheet" href="css/template.css">
     <link rel="stylesheet" href="css/zhuce.css">
 </head>
@@ -54,31 +54,31 @@
             </ul>
         </div>
     </div>
-
+    <div style="clear: both;"> </div>
     <div class="body">
         <table class="main" cellspacing="0" cellpadding="0">
             <tr class="main_top">
                 <td class="main_top_left">
                     <div class="title">用户注册</div>
                     <hr>
-                    <form class="information">
+                    <form class="information" action="">
                         <ul>
                             <li>
                                 <p>用户名：</p>
                                 <div class="input">
-                                    <input class="input1" type="text" name="username" id="username" placeholder="请输入用户名" autofocus>
+                                    <input required="required" class="input1" type="text" name="username" id="username" placeholder="请输入用户名" autofocus>
                                 </div>
                             </li>
                             <li>
                                 <p>邮箱地址：</p>
                                 <div class="input">
-                                    <input class="input1" type="text" name="email" id="email" placeholder="请输入邮箱地址">
+                                    <input required="required" class="input1" type="email" name="email" id="email" placeholder="请输入邮箱地址">
                                 </div>
                             </li>
                             <li>
                                 <p>设置密码：</p>
                                 <div class="input">
-                                    <input class="input1" type="password" name="userpwd" id="userpwd">
+                                    <input required="required" class="input1" type="password" name="userpwd" id="userpwd">
                                 </div>
                             </li>
                             <li>
@@ -89,14 +89,14 @@
                             </li>
                             <li>
                                 <p>确认密码：</p>
-                                <div class="password">
-                                    <input class="input1" type="text" name="userpwd2" id="userpwd2" placeholder="请输入用户名">
+                                <div class="input">
+                                    <input required="required" class="input1" type="password" name="userpwd2" id="userpwd2" placeholder="请确认您的密码">
                                 </div>
                             </li>
                             <li>
                                 <p>真实姓名：</p>
                                 <div class="input">
-                                    <input class="input1" type="text" name="realname" id="realname" placeholder="请输入真实姓名">
+                                    <input required="required" class="input1" type="text" name="realname" id="realname" placeholder="请输入真实姓名">
                                 </div>
                             </li>
                             <li>
@@ -115,13 +115,13 @@
                             <li>
                                 <p>您的手机：</p>
                                 <div class="input">
-                                    <input class="input1" type="text" name="phonenumber" id="phonenumber" placeholder="请输入您的手机号">
+                                    <input required="required" class="input1" type="text" name="phonenumber" id="phonenumber" placeholder="请输入您的手机号">
                                 </div>
                             </li>
                             <li>
                                 <p>单位名称：</p>
                                 <div class="input">
-                                    <input class="input1" type="text" name="gsname" id="gsname" placeholder="请输入单位名称">
+                                    <input required="required" class="input1" type="text" name="gsname" id="gsname" placeholder="请输入单位名称">
                                 </div>
                             </li>
                             <li>
@@ -146,7 +146,7 @@
                             <li>
                                 <p></p>
                                 <div class="input">
-                                    <input class="input1" type="text" name="address" id="address" placeholder="请输入街道地址">
+                                    <input required="required" class="input1" type="text" name="address" id="address" placeholder="请输入街道地址">
                                 </div>
                             </li>
                             <li>
