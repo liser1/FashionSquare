@@ -92,6 +92,7 @@ a{
 }
 .picshow img:hover{
     transform: scale(1.1);
+    cursor: zoom-in
 }
 .picshow:has(.pic1:hover){
     background:url(../images/show1.jpg) no-repeat;
