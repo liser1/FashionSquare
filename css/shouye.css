@@ -114,6 +114,15 @@
     text-align: center;
     margin-top: 8px;
 }
+
+.logo_right img{
+    transition: all 0.3s;
+
+}
+
+.logo_right img:hover{
+    transform: scale(0.9);
+}
 .logofirst{
     width: 91px;
     height: 35px;
