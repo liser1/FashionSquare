@@ -59,7 +59,16 @@
     left: 50%;
     margin-left: -38.5px;
 }
-.pic_box li{
+#li1{
+    float: left;
+    margin: 0 5px;
+    width: 15px;
+    height: 15px;
+    border-radius: 10px;
+    background: #f60;
+    cursor: pointer;
+}
+#li2,#li3{
     float: left;
     margin: 0 5px;
     width: 15px;
@@ -113,6 +122,15 @@
     float: left;
     text-align: center;
     margin-top: 8px;
+}
+
+.logo_right img{
+    transition: all 0.3s;
+
+}
+
+.logo_right img:hover{
+    transform: scale(0.9);
 }
 .logofirst{
     width: 91px;
