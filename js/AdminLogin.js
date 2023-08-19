@@ -11,7 +11,7 @@ function login() {
     if (username === 'admin'){
         if(password === '123'){
             alert('登录成功');
-            window.location.href = 'shouye.html';
+            window.location.href = '../layuiAdmin/views/index.html';
         }else if(password == 0){
             alert('请输入您的密码！');
         }else{
