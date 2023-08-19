@@ -65,13 +65,15 @@ a{
 .yifu_im{
     width: 690px;
     float: left;
+    position: relative;
 }
 
 .picshow{
     width: 410px;
     height: 485px;
     margin-left: 10px;
-    background:url(../images/show1.jpg) no-repeat;
+    background-image:url(../images/show1.jpg);
+    background-repeat: no-repeat;
     background-size:400px 400px;
     float: left;
     transition: all 0.5s;
@@ -80,36 +82,70 @@ a{
     width: 400px;
     height: 400px;
     float: left;
+    position: relative;
+}
+#fdj{
+    width: 400px;
+    height: 400px;
+    top: 50px;
+    left: 420px;
+    position: absolute;
+    background-color: aqua;
+    overflow: hidden;
+    display: none;
+    background-image: url(../images/show1.jpg);
+    background-size: 800px 800px;
+    background-position-x: 0;
+    background-position-y: 0;
+}
+
+#lens{
+    height: 200px;
+    width: 200px;
+    background-color: gray;
+    opacity: 0.5;
+    display: none;
+    position: absolute;
+    top:0;
+    left: 0;
+}
+.picshow a{
+    width: 70px;
+    height: 70px;
+    border: 1px solid #ccc;
+    margin:10px 10px 0 0;
+    float: left;
 }
 .picshow img{
     width: 70px;
     height: 70px;
-    border: 1px solid #ccc;
-    float: left;
-    margin:10px 10px 0 0;
     transition: all 0.2s;
 }
 .picshow img:hover{
     transform: scale(1.1);
-    cursor: zoom-in
+/*     cursor: zoom-in */
 }
-.picshow:has(.pic1:hover){
+.picshow a:focus{
+    border: 1px solid red;
+    transform: scale(1.1);
+}
+.picshow:has(.pic1:focus){
     background:url(../images/show1.jpg) no-repeat;
     background-size: 400px 400px;
 }
-.picshow:has(.pic2:hover){
+.picshow:has(.pic2:focus){
     background:url(../images/show2.jpg) no-repeat;
     background-size: 400px 400px;
 }
-.picshow:has(.pic3:hover){
+.picshow:has(.pic3:focus){
     background:url(../images/show3.jpg) no-repeat;
     background-size: 400px 400px;
 }
-.picshow:has(.pic4:hover){
+.picshow:has(.pic4:focus){
     background:url(../images/show4.jpg) no-repeat;
     background-size: 400px 400px;
 }
-.picshow:has(.pic5:hover){
+.picshow:has(.pic5:focus){
     background:url(../images/show5.jpg) no-repeat;
     background-size: 400px 400px;
 }

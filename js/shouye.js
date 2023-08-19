@@ -1,11 +1,11 @@
 var a=1
 
-var interval = setInterval(lunbo,4000);
+var interval = setInterval(lunbo,3500);
 function chose(b){
     a = b-1
     lunbo()
     clearInterval(interval)
-    interval = setInterval(lunbo,4000);
+    interval = setInterval(lunbo,3500);
 }
 function lunbo(){
     a++;

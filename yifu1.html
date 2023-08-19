@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/template.css">
 </head>
 <body>
+    
     <!-- 页头 -->
     <div class="header">
         <div class="top0">
@@ -131,16 +132,20 @@
                     </li>
                 </ul>
             </div>
-            <div class="yifu_im">
+            <div class="yifu_im" id="yifuIm">
+                <!-- 放大镜 -->
+                <div id="fdj"></div>
                 <p class="pic_title">商品详情</p>
                 <div style="height: 485px;">
-                    <div class="picshow">
-                        <div class="bigpic"></div>
-                        <img class="pic1" src="images/show1.jpg" alt="">
-                        <img class="pic2" src="images/show2.jpg" alt="">
-                        <img class="pic3" src="images/show3.jpg" alt="">
-                        <img class="pic4" src="images/show4.jpg" alt="">
-                        <img class="pic5" src="images/show5.jpg" alt="">
+                    <div class="picshow" id="picShow">
+                        <div class="bigpic" id="bigPic">
+                            <div id="lens"></div>
+                        </div>
+                        <a class="pic1" href="javascript:;"><img src="images/show1.jpg" alt="" onclick="pic(1)"></a>
+                        <a class="pic2" href="javascript:;"><img src="images/show2.jpg" alt="" onclick="pic(2)"></a>
+                        <a class="pic3" href="javascript:;"><img src="images/show3.jpg" alt="" onclick="pic(3)"></a>
+                        <a class="pic4" href="javascript:;"><img src="images/show4.jpg" alt="" onclick="pic(4)"></a>
+                        <a class="pic5" href="javascript:;"><img src="images/show5.jpg" alt="" onclick="pic(5)"></a>
                     </div>
                     <p class="yifu_title">冬季新款牛仔外套女中长款加厚<br>女冬装连帽毛领加绒牛仔棉衣女风衣</p>
                     <img class="showright" src="images/show6.jpg" alt="">
@@ -371,5 +376,6 @@
             <img src="images/footer/footer_pic.jpg" alt="">
         </div>
     </div>
+    <script src="js/yifu.js"></script>
 </body>
 </html>
