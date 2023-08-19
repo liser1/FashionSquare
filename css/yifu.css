@@ -79,7 +79,6 @@ a{
 .bigpic{
     width: 400px;
     height: 400px;
-    margin: 0 8px 10px 0;
     float: left;
 }
 .picshow img{
@@ -87,7 +86,7 @@ a{
     height: 70px;
     border: 1px solid #ccc;
     float: left;
-    margin-right: 10px;
+    margin:10px 10px 0 0;
     transition: all 0.2s;
 }
 .picshow img:hover{
