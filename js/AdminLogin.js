@@ -11,11 +11,7 @@ function login() {
     if (username === 'admin'){
         if(password === '123'){
             alert('登录成功');
-<<<<<<< HEAD
             window.location.href = '../layuiAdmin/views/index.html';
-=======
-            window.location.href = 'Admintop.html';
->>>>>>> 173449c05186a247820fb4a1898093134d57d741
         }else if(password == 0){
             alert('请输入您的密码！');
         }else{
