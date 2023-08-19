@@ -1,3 +1,20 @@
+.gotop{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+    background-color: #f592a3;
+    line-height: 25px;
+    letter-spacing:1px;
+    color: white;
+    bottom: 50px;
+    right: 50px;
+    display: none;
+    cursor: pointer;
+}
+
+
 .longpic{
     width: 1200px;
     height: 120px;
