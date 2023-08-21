@@ -209,6 +209,14 @@ a{
     width: 100%;
     display: none;
 }
+#goods3 table{
+    font-size: 12px;
+    text-align: center;
+}
+#goods3 .price{
+    color: red;
+    font-weight: 700;
+}
 .goods_im{
     width: 680px;
     height: 120px;
