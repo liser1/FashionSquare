@@ -12,7 +12,7 @@ function login() {
     if (username === 'admin'){
         if(password === '123'){
             alert('登录成功');
-            window.location.href = '../layuiAdmin/layuiAdmin.v1.2.1 std/views/index.html';
+            window.location.href ='../layuiAdmin/layuiAdmin.v1.2.1 std/views/index.html';
         }else if(password == 0){
         }
         else if(password == 0){
@@ -28,4 +28,8 @@ function login() {
     else{
         alert('账号输入错误！请检查您的账号。');
     }
+}
+
+function goToHomePage(){
+    window.location.href='shouye.html';//暂不登录，返回首页。
 }
