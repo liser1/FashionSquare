@@ -23,7 +23,7 @@
 .yifu_main{
     margin: 0 auto;
     width: 1200px;
-    height: 2000px;
+    
 }
 .leftbox ul{
     width: 220px;
@@ -207,8 +207,6 @@ a{
 }
 #goods2,#goods3{
     width: 100%;
-    height: 300px;
-    background-color: aqua;
     display: none;
 }
 .goods_im{
