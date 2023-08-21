@@ -12,7 +12,7 @@ function login() {
     if (username === 'admin'){
         if(password === '123'){
             alert('登录成功');
-            window.location.href ='../layuiAdmin/layuiAdmin.v1.2.1 std/views/index.html';
+            window.location.href ='layuiAdmin/layuiAdmin.v1.2.1 std/views/index.html';
         }else if(password == 0){
         }
         else if(password == 0){
