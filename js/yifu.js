@@ -50,9 +50,9 @@ bigPic.onmouseover = function(){
     fdj.style.display = 'block'
 }
 bigPic.onmousemove = function(e){
-    var height = document.documentElement.scrollTop || document.body.scrollTop
-    var x=e.clientX - yifuIm.offsetLeft - 110;
-    var y=e.clientY + height - yifuIm.offsetTop - 150;
+
+    var x=e.pageX - yifuIm.offsetLeft - 110;
+    var y=e.pageY - yifuIm.offsetTop - 150;
     if(x<0){
         x=0
     }else if(x>200){
