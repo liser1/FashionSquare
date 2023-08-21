@@ -1,3 +1,32 @@
+function titlechoose(a){
+    if(a==1){
+        document.getElementById('p1').className='p1'
+        document.getElementById('p2').className=''
+        document.getElementById('p3').className=''
+        document.getElementById('goods1').style.display='block'
+        document.getElementById('goods2').style.display='none'
+        document.getElementById('goods3').style.display='none'
+    }else if(a==2){
+        document.getElementById('p1').className=''
+        document.getElementById('p2').className='p1'
+        document.getElementById('p3').className=''
+        document.getElementById('goods1').style.display='none'
+        document.getElementById('goods2').style.display='block'
+        document.getElementById('goods3').style.display='none'
+    }else{
+        document.getElementById('p1').className=''
+        document.getElementById('p2').className=''
+        document.getElementById('p3').className='p1'
+        document.getElementById('goods1').style.display='none'
+        document.getElementById('goods2').style.display='none'
+        document.getElementById('goods3').style.display='block'
+    }
+}
+
+
+
+
+/*放大镜*/
 //元素调取
 var lens = document.getElementById('lens')
 
