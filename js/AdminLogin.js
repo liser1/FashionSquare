@@ -12,13 +12,10 @@ function login() {
     if (username === 'admin'){
         if(password === '123'){
             alert('登录成功');
-            window.location.href = '../layuiAdmin/layuiAdmin.v1.2.1 std/views/index.html';
-<<<<<<< HEAD
+            window.location.href = 'layuiAdmin/layuiAdmin.v1.2.1 std/views/index.html';
         }else if(password == 0){
-=======
         }
         else if(password == 0){
->>>>>>> 47fcb5a6a5b345e0fd134578a92800231b2091be
             alert('请输入您的密码！');
         }
         else{
