@@ -29,3 +29,7 @@ function login() {
         alert('账号输入错误！请检查您的账号。');
     }
 }
+
+function goToHomePage(){
+    window.location.href='shouye.html';//暂不登录，返回首页。
+}

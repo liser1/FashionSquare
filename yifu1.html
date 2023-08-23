@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/template.css">
 </head>
 <body>
+    <div class="gotop">返回<br>顶部</div>
     <!-- 页头 -->
     <div class="header">
         <div class="top0">
@@ -26,7 +27,9 @@
                 <img class="img_top_right" src="images/top.gif" alt="">
                 <div class="shoppingcart">
                     <img class="img_shoppingcart" src="images/shoppingcart.png" alt="">
-                    <p>我的购物车</p>
+                                        <p>
+                        <a href="ShopCart.html">我的购物车</a>
+                    </p>
                     <span>0</span>
                     <p>件</p>
                     <img class="img_top_right" src="images/top.gif" alt="">
@@ -131,52 +134,136 @@
                     </li>
                 </ul>
             </div>
-            <div class="yifu_im">
+            <div class="yifu_im" id="yifuIm">
+                <!-- 放大镜 -->
+                <div id="fdj"></div>
                 <p class="pic_title">商品详情</p>
                 <div style="height: 485px;">
-                    <div class="picshow">
-                        <div class="bigpic"></div>
-                        <img class="pic1" src="images/show1.jpg" alt="">
-                        <img class="pic2" src="images/show2.jpg" alt="">
-                        <img class="pic3" src="images/show3.jpg" alt="">
-                        <img class="pic4" src="images/show4.jpg" alt="">
-                        <img class="pic5" src="images/show5.jpg" alt="">
+                    <div class="picshow" id="picShow">
+                        <div class="bigpic" id="bigPic">
+                            <div id="lens"></div>
+                        </div>
+                        <a class="pic1" href="javascript:;"><img src="images/show1.jpg" alt="" onclick="pic(1)"></a>
+                        <a class="pic2" href="javascript:;"><img src="images/show2.jpg" alt="" onclick="pic(2)"></a>
+                        <a class="pic3" href="javascript:;"><img src="images/show3.jpg" alt="" onclick="pic(3)"></a>
+                        <a class="pic4" href="javascript:;"><img src="images/show4.jpg" alt="" onclick="pic(4)"></a>
+                        <a class="pic5" href="javascript:;"><img src="images/show5.jpg" alt="" onclick="pic(5)"></a>
                     </div>
                     <p class="yifu_title">冬季新款牛仔外套女中长款加厚<br>女冬装连帽毛领加绒牛仔棉衣女风衣</p>
                     <img class="showright" src="images/show6.jpg" alt="">
                 </div>
                 <div class="goods_title">
-                    <p class="p1">商品详情</p>
-                    <p>商品评价</p>
-                    <p>成交记录</p>
+                    <a href="javascript:;" onclick="titlechoose(1)"><p id="p1" class="p1">商品详情</p></a>
+                    <a href="javascript:;" onclick="titlechoose(2)"><p id="p2" class="">商品评价</p></a >
+                    <a href="javascript:;" onclick="titlechoose(3)"><p id="p3" class="">成交记录</p></a>
                 </div>
-                <div class="goods_im">
-                    <ul>
-                        <li>服装版型: 修身</li>
-                        <li>风格: 甜美</li>
-                        <li>甜美: 瑞丽</li>
-                        <li>衣长: 中长款</li>
-                        <li>袖长:长袖</li>
-                        <li>袖型: 常规</li>
-                        <li>领型:带帽</li>
-                        <li>衣门襟:拉链</li>
-                        <li>图案: 纯色</li>
-                        <li>成分含量:81%(含)-90%(含)</li>
-                        <li>质地: 棉</li>
-                        <li>适用年龄: 25-29周岁</li>
-                        <li>年份季节:2015年冬季</li>
-                        <li>颜色分类: 深蓝色 蓝色</li>
-                        <li>尺码:M L XL 2XL</li>
-                    </ul>
+                <div id="goods1">
+                    <div class="goods_im">
+                        <ul>
+                            <li>服装版型: 修身</li>
+                            <li>风格: 甜美</li>
+                            <li>甜美: 瑞丽</li>
+                            <li>衣长: 中长款</li>
+                            <li>袖长:长袖</li>
+                            <li>袖型: 常规</li>
+                            <li>领型:带帽</li>
+                            <li>衣门襟:拉链</li>
+                            <li>图案: 纯色</li>
+                            <li>成分含量:81%(含)-90%(含)</li>
+                            <li>质地: 棉</li>
+                            <li>适用年龄: 25-29周岁</li>
+                            <li>年份季节:2015年冬季</li>
+                            <li>颜色分类: 深蓝色 蓝色</li>
+                            <li>尺码:M L XL 2XL</li>
+                        </ul>
+                    </div>
+                    <section>
+                        <img class="img_border" src="images/big1.jpg" alt="">
+                        <img src="images/big2.jpg" alt="">
+                        <img class="img_border" src="images/big3.jpg" alt="">
+                        <img class="img_border" src="images/big4.jpg" alt="">
+                        <img class="img_border" src="images/big5.jpg" alt="">
+                        <img class="img_border" src="images/big6.jpg" alt="">
+                    </section>
                 </div>
-                <section>
-                    <img class="img_border" src="images/big1.jpg" alt="">
-                    <img src="images/big2.jpg" alt="">
-                    <img class="img_border" src="images/big3.jpg" alt="">
-                    <img class="img_border" src="images/big4.jpg" alt="">
-                    <img class="img_border" src="images/big5.jpg" alt="">
-                    <img class="img_border" src="images/big6.jpg" alt="">
-                </section>
+                <div id="goods2">
+                    <img style="width: 690px;" src="images/pinglun.jpg" alt="">
+                </div>
+                <div id="goods3">
+                    <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                        <thead>
+                          <tr>
+                            <th>买家</th>
+                            <th>淘宝价</th>
+                            <th>数量</th>
+                            <th>付款时间</th>
+                            <th>款式和型号</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td> a**男 (匿名) </td>
+                            <td><em class="price">¥198.00</em></td>
+                            <td>1</td>
+                            <td> 2015-07-31 20:08:39 </td>
+                            <td><div>
+                                <p>颜色分类:深蓝色[胸前格纹]</p>
+                                <p>尺码:L</p>
+                              </div></td>
+                          </tr>
+                          <tr>
+                            <td> 闺**你 (匿名) </td>
+                            <td><em class="price">¥198.00</em></td>
+                            <td>1</td>
+                            <td> 2015-07-27 14:05:17 </td>
+                            <td><div>
+                                  <p>颜色分类:蓝色[口袋格纹]</p>
+                                <p>尺码:L</p>
+                              </div></td>
+                          </tr>
+                          <tr>
+                            <td> w**0 (匿名)</td>
+                            <td><em class="price">¥198.00</em></td>
+                            <td>1</td>
+                            <td> 2015-07-23 12:33:54 </td>
+                            <td><div>
+                               <p>颜色分类:深蓝色[胸前格纹]</p>
+                                <p>尺码:L</p>
+                              </div></td>
+                          </tr>
+                          <tr>
+                            <td> a**u (匿名)</td>
+                            <td><em class="price">¥198.00</em></td>
+                            <td>1</td>
+                            <td> 2015-07-23 12:04:19 </td>
+                            <td><div>
+                                 <p>颜色分类:蓝色[口袋格纹]</p>
+                                <p>尺码:L</p>
+                              </div></td>
+                          </tr>
+                          <tr>
+                            <td> 落**1 (匿名) </td>
+                            <td><em class="price">¥198.00</em></td>
+                            <td>1</td>
+                            <td> 2015-07-22 21:39:27 </td>
+                            <td><div>
+                              <p>颜色分类:深蓝色[胸前格纹]</p>
+                                <p>尺码:L</p>
+                              </div></td>
+                          </tr>
+                          <tr>
+                            <td> 6**s (匿名) </td>
+                            <td><em class="price">¥198.00</em></td>
+                            <td>1</td>
+                            <td> 2015-07-12 15:00:30 </td>
+                            <td><div>
+                               <p>颜色分类:蓝色[口袋格纹]</p>
+                                <p>尺码:L</p>
+                              </div></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                </div>
                 <p class="pic_title">看了又看</p>
                 <div class="lookagain">
                     <div>
@@ -371,5 +458,7 @@
             <img src="images/footer/footer_pic.jpg" alt="">
         </div>
     </div>
+    <script src="js/yifu.js"></script>
+    <script src="js/gotop.js"></script>
 </body>
 </html>

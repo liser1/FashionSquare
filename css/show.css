@@ -1,0 +1,362 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+       font-size:12px;
+	   font-family:microsoft yahei;
+	   margin:0;
+	   color:#000;
+	}
+*{
+     padding:0;
+	 margin:0;
+ }
+li,ul{
+        list-style:none;
+	}
+a{
+     color:#000;
+	 text-decoration:none;
+ }
+a:hover{
+          color:#ce2626;
+		  text-decoration:none;
+		}
+img{
+       border:none;
+  }
+.font16{
+          font-size:16px;
+		  font-weight:700;
+		}
+.clear{
+          clear:both;
+	  }
+.floatl{
+           float:left;
+		}
+.floatr{
+           float:right;
+		}
+.main{
+          margin:10px auto;
+		  width:1200px;
+	 }
+/*头部*/
+.top_bg{
+          border-bottom:1px solid #ccc;
+		  font-size:12px;
+		  font-family:"宋体";
+		  line-height:30px;
+		  background:#f7f7f7;
+		  height:30px;
+	   }
+.top_content{
+                width:1200px;
+				margin:0 auto;
+		    }
+.logo{
+            margin:5px auto;
+			width:1200px;
+	 }
+.orange{
+          font-weight:700;
+		  color:orange;
+		}
+/*菜单导航栏 */
+.nav_bg{
+            background:#ce2626;
+			width:100%;
+			color:#fff;
+	   }
+.nav_content{
+                width:1200px;
+				margin:0 auto;
+				height:40px;
+				line-height:40px;
+		    }
+.nav{
+         width:700px;
+		 float:left;
+		 margin-left:200px;
+	}
+.nav li{
+          font-size:16px;
+		  font-weight:700;
+		  color:#fff;
+		  width:80px;
+		  float:left;
+		  text-align:center;
+		  margin-right:15px;
+	  }
+.nav_active{
+              background:#b12121;
+			}
+a.white{               /*原先”首页--最新上架“是红色的   鼠标放上去就会变成橘色*/
+           color:white;
+		   text-decoration:none;
+	   }
+a.white:hover{
+                color:orange;
+				text-decoration:none;
+			 }
+/*下接菜单 我的购物车那里的一系列*/
+.xl{
+       display:inline-block;
+	   position:relative;
+	}
+.droparrow{
+              position:relative;
+			  border:1px solid transparent;
+			  width:120px;
+			  height:30px;
+			  display:inline-block;
+			  padding-left:5px;
+			  z-index:1000;
+		  }
+.droparrow:hover{
+                     background:#fff;
+					 width:120px;
+					 height:30px;
+					 display:inline-block;
+					 border:1px solid #ccc;
+					 border-bottom:none;
+					 padding-left:5px;
+					 cursor:pointer;
+				}
+.xl>.dropdown{
+                 background:#fff;
+				 width:285px;
+				 height:225px;
+				 border:1px solid #ccc;
+				 padding:5px;
+				 position:absolute;
+				 right:0;
+				 top:30px;
+				 z-index:999;
+				 overflow-y:auto;
+				 overflow-x:hidden;
+				 display:none;
+			  }
+.xl:hover>.dropdown{
+                       display:block;
+				   }
+/*中间区域*/
+.shop_pic li{
+               float:left;
+			   margin:0 3px;
+			   line-height:20px;
+			}
+.shop_pic li p{
+                text-align:center;
+				color:gray;
+			  }
+.shop_pic img{
+               border:1px solid #ccc;
+			 }
+.shop_pic img:hover{
+                       border:1px solid #f60;
+				  }
+.shopcart{
+               background:url(../images/shoppingcart.png) no-repeat;
+			   width:16px;
+			   height:16px;			   
+			   display:inline-block;
+			   float:left;
+			   margin:5px 5px 0 0;
+		 }
+/*左侧导航*/
+.right_arrow{
+               background:url(../images/arrow_r.jpg) no-repeat;    
+			   width:20px;
+			   height:20px;
+			   display:inline-block;
+			   float:right;
+			 }
+.menu{
+          width:220px;
+		  float:left;
+		  border:1px solid #e5e4e1;
+	 }
+.menu li{
+           float:left;
+		   width:220px;
+		   border-bottom:1px solid #e5e4e1;
+		   height:33px;
+		   line-height:33px;
+		   background:#fafafa;
+		   font-size:14px;
+		   text-align:left;
+		}
+.menu li .title{
+                  height:33px;
+				  background:#e5e4e1;
+				  font-size:15px;
+				  text-indent:20px;
+				  text-align:left;
+				  width:100%;
+				  line-height:33px;
+				  display:inline-block;
+			   }
+.red_dot{
+           font-size:25px;
+		   margin-right:10px;
+		   background:url(../images/red_dot.gif) no-repeat;
+		   width:8px;height:8px;
+		   display:inline-block;
+		   margin-left:10px;
+		}
+/*中间部分*/
+.middle{
+          float:left;
+		  width:690px;
+	   }
+.pic_list{
+            float:left
+		 }
+.pic_list dl{
+               float:left;
+			   width:152px;
+			   margin:0 10px 10px;
+			}
+.price{
+          font-size:15px;
+		  font-weight:700;
+		  color:red;
+		  float:left;
+	  }
+.price2{
+           font-size:12px;
+		   font-weight:700;
+		   color:red;
+		   text-align:center;
+		}
+.font12{
+           font-size:12px;
+		   color:#ccc;
+		   float:right;
+		}
+.pic_list dl img{
+                   padding:5px;
+				   border:1px solid #ccc;
+				   margin-bottom:10px;
+			   }
+.pic_list dl dd{
+                float:left;
+			  }
+.pic_title{
+              background:#ff9c01;
+			  line-height:40px;
+			  font-size:16px;
+			  text-indent:20px;
+			  text-align:left;
+			  width:680px;
+			  float:left;
+			  color:#fff;
+			  margin:0 10px 10px;
+		   }
+.pic_list2 li{
+               float:left;
+			 }
+.pic_list2{
+             margin:0 6px 0 12px;
+		  }
+.pic_list2 li{
+                width:160px;
+				float:left;
+				margin:5px 4px;
+			 }
+/*右侧热门推荐*/
+.right_nav{
+            width:280px;           /*整个这个热门推荐的宽度 浮动等*/
+			border:1px solid #eee;
+			float:right;
+		  }
+.notice_title{ /*标题”热门推荐“的背景颜色字体大小位置等  line-height属性设置行间的距离（行高）。text-indent属性规定文本块中首行文本的缩进。*/
+                background:#eee;
+				line-height:40px;
+				font-size:16px;
+				text-indent:20px;     
+				text-align:left;
+			  }
+.pic_list3 li{                 /*推荐里无序列表的每个li的属性*/
+                margin:5px;
+				float:left;
+				width:83px;
+			 }
+.pic_list3 li img{                       /*热门推荐里每个图片的。。。。。*/
+                   border:1px solid #ccc;
+				}
+/*foot*/
+.footer{
+          width:100%;
+		  background:#efefef; /*最下边那个新手指导-- 售后服务--优惠活动那一大绺的背景浅灰色*/   
+		  height:310px;
+		  margin-top:15px;
+	   }
+.foot_title{
+              background:#6a6665;      /*正品保障 即买即送那里 深灰色 */
+			  width:100%;
+			  height:40px;
+			  padding-top:8px;   /*浅灰色那一行有多高/宽*/
+		   }
+.foot_pic{
+            margin:0 auto;   /*正品保障--全国联保+新手指导--优惠活动以及下面小字部分的位置*/
+			width:1200px;
+		 }
+.foot_pic li{
+               width:210px;
+			   float:left;   /*正品保障--全国联保那一行在深灰色那一个背景里是左浮动的*/
+			   text-align:center;
+		   }
+.padding-bottom{
+                  padding-bottom:10px;   /*小字部分的位置*/
+			   }
+.padding-top{
+               padding-top:10px;   /*版权部分的位置*/
+			}
+.foot_line{
+              border-bottom:1px solid #ccc;    /*小字下面的灰色横杠*/
+			  font-size:12px;
+			  margin-top:10px;
+		  }
+.line1{
+         background:url(../images/line1.jpg) no-repeat;  /*插的图片 竖杠灰色的*/
+		 width:20px;
+		 height:100px;
+		 display:inline-block;   /*display 属性规定元素应该生成的框的类型。  属性值inline-block	行内块元素。*/
+	  }
+.red1{           /*新手指导左边图片*/        
+         background:url(../images/red1.jpg) no-repeat;
+		 width:35px;
+		 height:31px;
+		 display:block;
+	 }
+.red2{          /*支付方式左边图片*/  
+         background:url(../images/red2.jpg) no-repeat;
+		 width:35px;
+		 height:31px;
+		 display:block;
+	 }
+.red3{           /*配送方式--优惠活动左边四个图片*/  
+         background:url(../images/red3.jpg) no-repeat;
+		 width:35px;
+		 height:31px;
+		 display:block;
+	 }
+.foot_list>li{
+                float:left;    /*六个小字块向左浮动  以及每一块的宽度*/
+				width:170px;
+			 }
+.foot_list{
+             width:1100px;        /*六个小字块总共的宽度 外边距 内边距等*/
+			 margin:0 auto;
+			 padding-top:20px;
+		  }
+.gotop{
+         background:url(../images/shopshow/gotop.jpg) no-repeat;   /*最下边插的那个向下的大于号的图片*/
+		 width:60px;
+		 height:60px;
+		 position:fixed;
+		 bottom:20px;
+		 right:0;
+	  }

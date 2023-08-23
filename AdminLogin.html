@@ -52,6 +52,8 @@
             border: none;
             color: #fff;
             cursor: pointer;
+            margin-top: 10px;
+
         }
 
         .signup-link {
@@ -59,7 +61,8 @@
         }
     </style>
 
-    <script src="js/AdminLogin.js"></script>
+    <script src="js/AdminLogin.js">
+    </script>
 
 </head>
 <body>
@@ -70,6 +73,7 @@
         <input type="text" id="username" placeholder="账号" required>
         <input type="password"id="password" placeholder="密码" required>
         <button type="button" onclick="login()">登录</button>
+        <button type="button" onclick="goToHomePage()">返回首页</button>
     </form>
 </div>
 </body>
