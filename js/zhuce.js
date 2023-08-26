@@ -1,6 +1,6 @@
-var sheng=document.getElementById('sheng')
-var shi=document.getElementById('shi')
-var qu=document.getElementById('qu')
+var sheng=document.querySelector('#sheng')
+var shi=document.querySelector('#shi')
+var qu=document.querySelector('#qu')
 var frag = document.createDocumentFragment()
 for(i=0;i<provice.length;i++){
     var option = document.createElement('option')

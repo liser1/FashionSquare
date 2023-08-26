@@ -1,27 +1,44 @@
 function titlechoose(a){
-    if(a==1){
-        document.getElementById('p1').className='p1'
-        document.getElementById('p2').className=''
-        document.getElementById('p3').className=''
-        document.getElementById('goods1').style.display='block'
-        document.getElementById('goods2').style.display='none'
-        document.getElementById('goods3').style.display='none'
-    }else if(a==2){
-        document.getElementById('p1').className=''
-        document.getElementById('p2').className='p1'
-        document.getElementById('p3').className=''
-        document.getElementById('goods1').style.display='none'
-        document.getElementById('goods2').style.display='block'
-        document.getElementById('goods3').style.display='none'
-    }else{
-        document.getElementById('p1').className=''
-        document.getElementById('p2').className=''
-        document.getElementById('p3').className='p1'
-        document.getElementById('goods1').style.display='none'
-        document.getElementById('goods2').style.display='none'
-        document.getElementById('goods3').style.display='block'
+    const P = document.querySelectorAll('.goods_title p')
+    const Goods = document.querySelectorAll('.goods')
+    for(let i=1;i<=3;i++){
+        let goods = Goods[i-1]
+        let p = P[i-1]
+        p.className=''
+        goods.style.display='none'
     }
-}
+    P[a-1].className='p1'
+    Goods[a-1].style.display='block'
+    /* const p1 = document.querySelector('#p1')
+    const p2 = document.querySelector('#p2')
+    const p3 = document.querySelector('#p3')
+    const goods1 = document.querySelector('#goods1')
+    const goods2 = document.querySelector('#goods2')
+    const goods3 = document.querySelector('#goods3') 
+    if(a==1){
+        p1.className='p1'
+        console.log(p1);
+        p2.className=''
+        p3.className=''
+        goods1.style.display='block'
+        goods2.style.display='none'
+        goods3.style.display='none'
+    }else if(a==2){
+        p1.className=''
+        p2.className='p1'
+        document.getElementById('p3').className=''
+        goods1.style.display='none'
+        goods2.style.display='block'
+        goods3.style.display='none'
+    }else{
+        p1.className=''
+        p2.className=''
+        document.getElementById('p3').className='p1'
+        goods1.style.display='none'
+        goods2.style.display='none'
+        goods3.style.display='block'
+    } */
+} 
 
 
 
