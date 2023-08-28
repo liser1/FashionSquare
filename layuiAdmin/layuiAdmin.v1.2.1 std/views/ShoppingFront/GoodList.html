@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <link rel="stylesheet" href="../../layuiadmin/ShoppingCSS/List.css"/>
+  <style type="text/css">a {text-decoration: none}</style>
+</head>
+<body>
+<div class="front">
+  <select class="select" name="goodType" id="goodType">
+    <option>商品类别</option>
+    <option>女装</option>
+    <option>男装</option>
+    <option>童装</option>
+    <option>运动</option>
+  </select>
+  <input class="choose" name="choose" id="choose" type="text" placeholder="&nbsp&nbsp请输入商品内容"/>
+  <button class="find" type="button" >
+    <span style="color: white; font-weight: bolder;">查询</span>
+  </button>
+  <div class="front-right">
+    <div class="front-right-one">
+                <span class="front-right-img">
+                    <img src="../../layuiadmin/Image/t01.png" style="margin-top: 7px;"/>
+                </span>
+      <a>添加</a>
+    </div>
+    <div class="front-right-one">
+                <span class="front-right-img">
+                    <img src="../../layuiadmin/Image/t02.png" style="margin-top: 7px;"/>
+                </span>
+      <a>修改</a>
+    </div>
+    <div class="front-right-one">
+                <span class="front-right-img">
+                    <img src="../../layuiadmin/Image/t03.png" style="margin-top: 7px;"/>
+                </span>
+      <a>删除</a>
+    </div>
+    <div class="front-right-one">
+                <span class="front-right-img">
+                    <img src="../../layuiadmin/Image/t04.png" style="margin-top: 7px;"/>
+                </span>
+      <a>统计</a>
+    </div>
+    <div class="front-right-one">
+                <span class="front-right-img">
+                    <img src="../../layuiadmin/Image/t05.png" style="margin-top: 7px;"/>
+                </span>
+      <a>设置</a>
+    </div>
+  </div>
+</div>
+<table class="tablelist">
+  <thead class="tablefront">
+  <tr>
+    <th>
+      <input name="checkAll" type="checkbox" id="checkAll" onchange="selectAll()"/>全选/
+      <input name="checkOther" type="checkbox" id="checkOther" onchange="selctOther()"/>反选
+    </th>
+    <th>缩略图</th>
+    <th>商品名称</th>
+    <th>商品类别</th>
+    <th>数量（件）</th>
+    <th>单价（元）</th>
+    <th>发布时间</th>
+    <th>是否审核</th>
+    <th>操作</th>
+  </tr>
+  </thead>
+  <tbody class="tablebody">
+  <tr class="tablebody-one">
+    <td><input name="checkItem" type="checkbox"/></td>
+    <td><img src="../../layuiadmin/Image/product1.png" width="100"/></td>
+    <td>New Balance NB官方奥莱 女鞋春夏季透气舒适N字休闲运动鞋327</td>
+    <td>运动</td>
+    <td>502</td>
+    <td>¥509.00</td>
+    <td>2023-06-06</td>
+    <td>已审核</td>
+    <td><a href="#" style="color: rgb(40, 115, 255);">查看</a>
+      <a href="#" style="color: rgb(40, 115, 255);"> 删除</a></td>
+  </tr>
+  <tr class="tablebody-two">
+    <td><input name="checkItem" type="checkbox"/></td>
+    <td><img src="../../layuiadmin/Image/product2.png"width="100" /></td>
+    <td>美国 the mountain 黑色创意黑色阴影图案纯棉打底T恤</td>
+    <td>男装</td>
+    <td>455</td>
+    <td>¥148.90</td>
+    <td>2023-06-08</td>
+    <td>未审核</td>
+    <td><a href="#" style="color: rgb(40, 115, 255);">查看</a>
+      <a href="#" style="color: rgb(40, 115, 255);">删除</a></td>
+  </tr>
+  <tr class="tablebody-one">
+    <td><input name="checkItem" type="checkbox"/></td>
+    <td><img src="../../layuiadmin/Image/product3.png" width="100"/></td>
+    <td>Skechers斯凯奇女鞋运动鞋复古缓震休闲老爹鞋149906</td>
+    <td>复古</td>
+    <td>582</td>
+    <td>¥378.00</td>
+    <td>2023-06-07</td>
+    <td>未审核</td>
+    <td><a href="#" style="color: rgb(40, 115, 255);">查看</a>
+      <a href="#" style="color: rgb(40, 115, 255);">删除</a></td>
+  </tr>
+  <tr class="tablebody-two">
+    <td><input name="checkItem" type="checkbox"/></td>
+    <td><img src="../../layuiadmin/Image/product4.png"width="100" /></td>
+    <td>吉考斯工业 ×别的电波 咱不是朋友么Slogan刺绣弯檐藏蓝色棒球帽</td>
+    <td>帽子</td>
+    <td>3456</td>
+    <td>¥169.00</td>
+    <td>2023-06-06</td>
+    <td>已审核</td>
+    <td><a href="#" style="color: rgb(40, 115, 255);">查看</a>
+      <a href="#" style="color: rgb(40, 115, 255);">删除</a></td>
+  </tr>
+  <tr class="tablebody-one">
+    <td><input name="checkItem" type="checkbox"/></td>
+    <td><img src="../../layuiadmin/Image/product5.png"width="100" /></td>
+    <td>Asics亚瑟士款青少年实战篮球鞋缓震耐磨NOVA SURGE GS童鞋</td>
+    <td>鞋类</td>
+    <td>678</td>
+    <td>¥342.00</td>
+    <td>2023-06-05</td>
+    <td>已审核</td>
+    <td><a href="#" style="color: rgb(40, 115, 255);">查看</a>
+      <a href="#" style="color: rgb(40, 115, 255);">删除</a></td>
+  </tr>
+  </tbody>
+</table>
+
+<div class="ListFoot">
+  <div class="FootLeft">
+    共<a style="color: rgb(40, 115, 255);">&nbsp;1256&nbsp;</a>条记录，
+    当前显示第<a style="color: rgb(40, 115, 255);">&nbsp;2&nbsp;</a>页
+  </div>
+  <div class="FootRight">
+    <a href="#">«</a>
+    <a href="#">1</a>
+    <a href="#" class="active">2</a>
+    <a href="#">3</a>
+    <a href="#">4</a>
+    <a href="#">5</a>
+    <a href="#">6</a>
+    <a href="#">»</a>
+  </div>
+</div>
+</body>
+</html>

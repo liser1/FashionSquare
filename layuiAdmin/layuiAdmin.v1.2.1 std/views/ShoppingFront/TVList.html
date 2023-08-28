@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <link rel="stylesheet" href="../../layuiadmin/ShoppingCSS/List.css"/>
+  <style type="text/css">a {text-decoration: none}</style>
+</head>
+<body>
+<div class="front">
+  <select class="select" name="goodType" id="goodType">
+    <option>影视类别</option>
+    <option>文艺片</option>
+    <option>喜剧片</option>
+    <option>武侠片</option>
+    <option>纪录片</option>
+  </select>
+  <input class="choose" name="choose" id="choose" type="text" placeholder="&nbsp&nbsp请输入影片内容"/>
+  <button class="find" type="button" >
+    <span style="color: white; font-weight: bolder;">查询</span>
+  </button>
+  <div class="front-right">
+    <div class="front-right-one">
+                <span class="front-right-img">
+                    <img src="../../layuiadmin/Image/t01.png" style="margin-top: 7px;"/>
+                </span>
+      <a>添加</a>
+    </div>
+    <div class="front-right-one">
+                <span class="front-right-img">
+                    <img src="../../layuiadmin/Image/t02.png" style="margin-top: 7px;"/>
+                </span>
+      <a>修改</a>
+    </div>
+    <div class="front-right-one">
+                <span class="front-right-img">
+                    <img src="../../layuiadmin/Image/t03.png" style="margin-top: 7px;"/>
+                </span>
+      <a>删除</a>
+    </div>
+    <div class="front-right-one">
+                <span class="front-right-img">
+                    <img src="../../layuiadmin/Image/t04.png" style="margin-top: 7px;"/>
+                </span>
+      <a>统计</a>
+    </div>
+    <div class="front-right-one">
+                <span class="front-right-img">
+                    <img src="../../layuiadmin/Image/t05.png" style="margin-top: 7px;"/>
+                </span>
+      <a>设置</a>
+    </div>
+  </div>
+</div>
+<table class="tablelist">
+  <thead class="tablefront">
+  <tr>
+    <th>
+      <input name="checkAll" type="checkbox" id="checkAll" onchange="selectAll()"/>全选/
+      <input name="checkOther" type="checkbox" id="checkOther" onchange="selctOther()"/>反选
+    </th>
+    <th>缩略图</th>
+    <th>影片名称</th>
+    <th>影片类别</th>
+    <th>上映时间</th>
+    <th>评分</th>
+    <th>发布时间</th>
+    <th>是否审核</th>
+    <th>操作</th>
+  </tr>
+  </thead>
+  <tbody class="tablebody">
+  <tr class="tablebody-one">
+    <td><input name="checkItem" type="checkbox"/></td>
+    <td><img src="../../layuiadmin/Image/interstellar.png" width="100" /></td>
+    <td>星际穿越 Interstellar</td>
+    <td>剧情</td>
+    <td>2014-11-12</td>
+    <td>9.4</td>
+    <td>2023-8-15</td>
+    <td>已审核</td>
+    <td><a href="#" style="color: rgb(40, 115, 255);">查看</a>
+      <a href="#" style="color: rgb(40, 115, 255);"> 删除</a></td>
+  </tr>
+  <tr class="tablebody-two">
+    <td><input name="checkItem" type="checkbox"/></td>
+    <td><img src="../../layuiadmin/Image/dust.png" width="100" /></td>
+    <td>隐入尘烟</td>
+    <td>剧情</td>
+    <td>2022-07-08</td>
+    <td>8.4</td>
+    <td>2023-8-15</td>
+    <td>未审核</td>
+    <td><a href="#" style="color: rgb(40, 115, 255);">查看</a>
+      <a href="#" style="color: rgb(40, 115, 255);">删除</a></td>
+  </tr>
+  <tr class="tablebody-one">
+    <td><input name="checkItem" type="checkbox"/></td>
+    <td><img src="../../layuiadmin/Image/dunkitk.png" width="100" /></td>
+    <td>敦刻尔克 Dunkirk</td>
+    <td>战争</td>
+    <td>2017-09-01</td>
+    <td>8.4</td>
+    <td>2023-8-15</td>
+    <td>未审核</td>
+    <td><a href="#" style="color: rgb(40, 115, 255);">查看</a>
+      <a href="#" style="color: rgb(40, 115, 255);">删除</a></td>
+  </tr>
+  <tr class="tablebody-two">
+    <td><input name="checkItem" type="checkbox"/></td>
+    <td><img src="../../layuiadmin/Image/monster.png"width="100" /></td>
+    <td>怪物</td>
+    <td>剧情</td>
+    <td>2023-05-17</td>
+    <td>8.8</td>
+    <td>2023-8-14</td>
+    <td>已审核</td>
+    <td><a href="#" style="color: rgb(40, 115, 255);">查看</a>
+      <a href="#" style="color: rgb(40, 115, 255);">删除</a></td>
+  </tr>
+  <tr class="tablebody-one">
+    <td><input name="checkItem" type="checkbox"/></td>
+    <td><img src="../../layuiadmin/Image/cloud.png"width="100" /></td>
+    <td>风中有朵雨做的云</td>
+    <td>悬疑</td>
+    <td>2019-04-04</td>
+    <td>7.2</td>
+    <td>2023-8-11</td>
+    <td>已审核</td>
+    <td><a href="#" style="color: rgb(40, 115, 255);">查看</a>
+      <a href="#" style="color: rgb(40, 115, 255);">删除</a></td>
+  </tr>
+  </tbody>
+</table>
+
+<div class="ListFoot">
+  <div class="FootLeft">
+    共<a style="color: rgb(40, 115, 255);">&nbsp;1256&nbsp;</a>条记录，
+    当前显示第<a style="color: rgb(40, 115, 255);">&nbsp;2&nbsp;</a>页
+  </div>
+  <div class="FootRight">
+    <a href="#">«</a>
+    <a href="#">1</a>
+    <a href="#" class="active">2</a>
+    <a href="#">3</a>
+    <a href="#">4</a>
+    <a href="#">5</a>
+    <a href="#">6</a>
+    <a href="#">»</a>
+  </div>
+</div>
+</body>
+</html>
