@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0fc31294-31e6-4b3e-bffc-0930698bbded" name="默认变更列表" comment="" />
+    <list default="true" id="0fc31294-31e6-4b3e-bffc-0930698bbded" name="默认变更列表" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,15 +60,13 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -94,7 +94,8 @@
       <workItem from="1692585351431" duration="15096000" />
       <workItem from="1692933018415" duration="6000" />
       <workItem from="1693034566858" duration="12189000" />
-      <workItem from="1693184205026" duration="1878000" />
+      <workItem from="1693184205026" duration="2326000" />
+      <workItem from="1693189075978" duration="3682000" />
     </task>
     <servers />
   </component>
