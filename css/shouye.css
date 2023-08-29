@@ -150,16 +150,17 @@
 }
 
 .right_bottom{
-    width: 964px;
     height: 143px;
-    border: 1px solid #e5e4e1;
+    border-top: 1px solid #e5e4e1;
+    border-left: 1px solid #e5e4e1;
     float: left;
     margin-left: 5px;
 }
 .right_bottom>ul>li{
     width: 173px;
     height: 137px;
-    border-left: 1px solid #e5e4e1;
+    border-right: 1px solid #e5e4e1;
+    border-bottom: 1px solid #e5e4e1;
     float: left;
     padding: 3px 9.5px;
 }
